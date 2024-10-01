@@ -948,8 +948,10 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/pagination/pagination.js"></script>
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src=/assets/js/main.js"></script>
+    <script src="/assets/js/stats.js"></script>
     <script>
+      stats("/blog.html");
       const articlesCategories = document.querySelectorAll(".col-lg-12");
       const itemsPerPage = 3; // 每頁顯示的文章數量
       let currentPage = 1; // 當前頁碼
